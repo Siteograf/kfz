@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="description" content="bootstrap template">
+  <meta name="author" content="">
+  <title>KFZ | Design HTML</title>
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-extend.min.css">
+  <link rel="stylesheet" href="css/kfz.css">
+  <!-- Plugins -->
+
+
+<!-- Tables -->
+  <link rel="stylesheet" href="vendor/datatables-bootstrap/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="vendor/datatables-fixedheader/dataTables.fixedHeader.css">
+  <link rel="stylesheet" href="vendor/datatables-responsive/dataTables.responsive.css">
+  <link rel="stylesheet" href="css/tables/datatable.css">
+
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/font-awesome/font-awesome.css">
+  <link rel="stylesheet" href="fonts/material-design/material-design.min.css">
+  <link rel="stylesheet" href="fonts/brand-icons/brand-icons.min.css">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic&subset=latin,cyrillic'>
+<!--<link rel="stylesheet" href="css/components/sticky-header.module.css">-->
+
+  <!--[if lt IE 9]>
+    <script src="vendor/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+  <!--[if lt IE 10]>
+    <script src="vendor/media-match/media.match.min.js"></script>
+    <script src="vendor/respond/respond.min.js"></script>
+    <![endif]-->
+  <!-- Scripts -->
+  <script src="vendor/modernizr/modernizr.js"></script>
+  <script src="vendor/breakpoints/breakpoints.js"></script>
+  <script>
+  Breakpoints();
+  </script>
+</head>
+<body class="<!--site-navbar-small-->">
+  <!--<div class="fw-background"></div>-->
+  
+  <!--[if lt IE 8]>
+        <p class="browserupgrade">Вы используюте <strong>устаревший</strong> браузер. Обновите <a href="http://browsehappy.com/">Ваш браузер</a> для лучшей работы сайта.</p>
+    <![endif]-->
+  <nav class="site-navbar navbar navbar-inverse  navbar-mega navbar-inverse "
+  role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided"
+      data-toggle="menubar">
+        <span class="sr-only">Переключить Навигацию</span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+      data-toggle="collapse">
+        <i class="icon md-more" aria-hidden="true"></i>
+      </button>
+      <a class="navbar-brand navbar-brand-center" href="index.html">
+        <img class="navbar-brand-logo navbar-brand-logo-normal" src="images/logo.png"
+        title="Material">
+        <img class="navbar-brand-logo navbar-brand-logo-special" src="images/logo-blue.png"
+        title="Material">
+        <span class="navbar-brand-text hidden-xs"> KFZ</span>
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-search"
+      data-toggle="collapse">
+        <span class="sr-only">Переключить Поиск</span>
+        <i class="icon md-search" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="navbar-container container-fluid">
+      <!-- Navbar Collapse -->
+      <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+        <!-- Navbar Toolbar -->
+        <!--<ul class="nav navbar-toolbar"> -->
+          <ul class="menu menu--main nav navbar-nav">
+                      <li class="first">
+                                        <a href="/en" data-drupal-link-system-path="<front>">Home</a>
+              </li>
+                      <li>
+                                        <a href="/en/kfz-zum-verkauf" data-drupal-link-system-path="kfz-zum-verkauf" class="is-active">KFZ zum Verkauf</a>
+              </li>
+                      <li>
+                                        <a href="/en/node" data-drupal-link-system-path="node">Mobil Ansicht</a>
+              </li>
+                      <li>
+                                        <a href="/en/Angebote" title="Alle Angebote" data-drupal-link-system-path="Angebote">Angebote</a>
+              </li>
+                      <li>
+                                        <a href="/en/bezahlungen" data-drupal-link-system-path="bezahlungen">Bezahlungen</a>
+              </li>
+                      <li>
+                                        <a href="/en/verwaltung" title="Verwaltung fur Manager" data-drupal-link-system-path="verwaltung">Verwaltung</a>
+              </li>
+                      <li>
+                                        <a href="/en/unterst-zungsticket" data-drupal-link-system-path="unterst-zungsticket">Unterstüzungsticket</a>
+              </li>
+                      <li class="last">
+                                        <a href="/en/benutzers" data-drupal-link-system-path="benutzers">Benutzers</a>
+              </li>
+        </ul>
+        <!--</ul> -->
+        <!-- End Navbar Toolbar -->
+        <!-- Navbar Toolbar Right -->
+        <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up"
+            aria-expanded="false" role="button">
+              <span class="flag-icon flag-icon-ru"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem">
+                  <span class="flag-icon flag-icon-ru"></span> Русский</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem">
+                  <span class="flag-icon flag-icon-fr"></span> French</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem">
+                  <span class="flag-icon flag-icon-cn"></span> Chinese</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem">
+                  <span class="flag-icon flag-icon-de"></span> German</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem">
+                  <span class="flag-icon flag-icon-nl"></span> Dutch</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"
+            data-animation="scale-up" role="button">
+              <span class="avatar avatar-online">
+                <img src="images/5.jpg" alt="...">
+                <i></i>
+              </span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem"><i class="icon md-account" aria-hidden="true"></i> Профиль</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem"><i class="icon md-card" aria-hidden="true"></i> Биллинг</a>
+              </li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem"><i class="icon md-settings" aria-hidden="true"></i> Настройки</a>
+              </li>
+              <li class="divider" role="presentation"></li>
+              <li role="presentation">
+                <a href="javascript:void(0)" role="menuitem"><i class="icon md-power" aria-hidden="true"></i> Выход</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a data-toggle="dropdown" href="javascript:void(0)" title="Notifications" aria-expanded="false"
+            data-animation="scale-up" role="button">
+              <i class="icon md-notifications" aria-hidden="true"></i>
+              <span class="badge badge-danger up">5</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+              <li class="dropdown-menu-header" role="presentation">
+                <h5>УВЕДОМЛЕНИЯ</h5>
+                <span class="label label-round label-danger">New 5</span>
+              </li>
+              <li class="list-group" role="presentation">
+                <div data-role="container">
+                  <div data-role="content">
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <i class="icon md-receipt bg-red-600 white icon-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Вышло обновление для FriendlyCMS</h6>
+                          <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">5 hours ago</time>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <i class="icon md-account bg-green-600 white icon-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Completed the task</h6>
+                          <time class="media-meta" datetime="2015-06-11T18:29:20+08:00">2 days ago</time>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <i class="icon md-settings bg-red-600 white icon-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Settings updated</h6>
+                          <time class="media-meta" datetime="2015-06-11T14:05:00+08:00">2 days ago</time>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <i class="icon md-calendar bg-blue-600 white icon-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Event started</h6>
+                          <time class="media-meta" datetime="2015-06-10T13:50:18+08:00">3 days ago</time>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <i class="icon md-comment bg-orange-600 white icon-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Message received</h6>
+                          <time class="media-meta" datetime="2015-06-10T12:34:48+08:00">3 days ago</time>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown-menu-footer" role="presentation">
+                <a class="dropdown-menu-footer-btn" href="javascript:void(0)" role="button">
+                  <i class="icon md-settings" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)" role="menuitem">
+                    Все уведомления
+                  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a data-toggle="dropdown" href="javascript:void(0)" title="Messages" aria-expanded="false"
+            data-animation="scale-up" role="button">
+              <i class="icon md-email" aria-hidden="true"></i>
+              <span class="badge badge-info up">3</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+              <li class="dropdown-menu-header" role="presentation">
+                <h5>СООБЩЕНИЯ</h5>
+                <span class="label label-round label-info">New 3</span>
+              </li>
+              <li class="list-group" role="presentation">
+                <div data-role="container">
+                  <div data-role="content">
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <span class="avatar avatar-sm avatar-online">
+                            <img src="images/2.jpg" alt="..." />
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Серафим Нождак</h6>
+                          <div class="media-meta">
+                            <time datetime="2015-06-17T20:22:05+08:00">30 минут назад</time>
+                          </div>
+                          <div class="media-detail">Мне понравилась FriendlyCMS</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <span class="avatar avatar-sm avatar-off">
+                            <img src="images/3.jpg" alt="..." />
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Василий Писяев</h6>
+                          <div class="media-meta">
+                            <time datetime="2015-06-17T12:30:30+08:00">12 часов назад</time>
+                          </div>
+                          <div class="media-detail">FriendlyCMS работает с Яндекс.Маркет!</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <span class="avatar avatar-sm avatar-busy">
+                            <img src="images/4.jpg" alt="..." />
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Равшан Басаврюков</h6>
+                          <div class="media-meta">
+                            <time datetime="2015-06-16T18:38:40+08:00">2 дня назад</time>
+                          </div>
+                          <div class="media-detail">Хорошая адаптивность шаблона!</div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="list-group-item" href="#" target="_blank" role="menuitem">
+                      <div class="media">
+                        <div class="media-left padding-right-10">
+                          <span class="avatar avatar-sm avatar-away">
+                            <img src="images/5.jpg" alt="..." />
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Николай Слоник</h6>
+                          <div class="media-meta">
+                            <time datetime="2015-06-15T20:34:48+08:00">3 дня назад</time>
+                          </div>
+                          <div class="media-detail">Быстрое оформление заказа - это радует!</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown-menu-footer" role="presentation">
+                <a class="dropdown-menu-footer-btn" href="javascript:void(0)" role="button">
+                  <i class="icon md-settings" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)" role="menuitem">
+                    Смотреть все сообщения
+                  </a>
+              </li>
+            </ul>
+          </li>
+          <li id="toggleChat">
+            <a data-toggle="site-sidebar" href="javascript:void(0)" title="Chat" data-url="site-sidebar.tpl">
+              <i class="icon md-comment" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- End Navbar Toolbar Right -->
+      </div>
+      <!-- End Navbar Collapse -->
+      <!-- Site Navbar Seach -->
+      <div class="collapse navbar-search-overlap" id="site-navbar-search">
+        <form role="search">
+          <div class="form-group">
+            <div class="input-search">
+              <i class="input-search-icon md-search" aria-hidden="true"></i>
+              <input type="text" class="form-control" name="site-search" placeholder="Я ищю...">
+              <button type="button" class="input-search-close icon md-close" data-target="#site-navbar-search"
+              data-toggle="collapse" aria-label="Закрыть"></button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- End Site Navbar Seach -->
+    </div>
+  </nav>
+
+  <!-- Page -->
+  <div class="page <!-- animsition -->">
+    <div class="page-header">
+      <h1 class="page-title">Boxed layout</h1>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Hauptseite</a></li>
+        <li><a href="javascript:void(0)">Autos zum Verkauf</a></li>
+        <li class="active">Filter</li>
+      </ol>
+    </div>
+
+
+    <div class="page-content">
+      <div class="panel">
+ <div class="panel-heading">
+          <h3 class="panel-title">DEMO CONTENT</h3>
+        </div>
+        <div class="panel-body">
+          <p>Accedis delectamur approbantibus expetitur provocarem telos conspectum
+            asperum vitae meis. Interesset licebit, fugiendis opus optinere ludus
+            iudicio, compluribus fructu, beata distrahi. Quondam brevi falli sicut
+            disputationi futuris inopem quodsi, isti plane. Ob fugiendus didicisse
+            nostrum venustate omnisque solum notissima torquatum, asperum inesse
+            emolumento theophrasti horribiles generibusque domo, priventur libero
+            praeclara sensibus temporibus paulo referatur, admonere ipsi solida
+            dedecora expedire verbum omnem operam, temporibus adamare eaque ego
+            pugnare omnesque impendet praeclaram quales, verbis reliquerunt intereant,
+            oratione, excruciant laetetur tenent uberiora nostro nusquam virtutes,
+            captet pleniorem turbulentaeque forensibus, eidola tuentur sapientium,
+            libido.</p>
+
+
+
+
+
+
+       <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="DataTables_Table_0_length"><label><select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div></div><div class="col-sm-6"><div id="DataTables_Table_0_filter" class="dataTables_filter"><label><input type="search" class="form-control input-sm" placeholder="Search.." aria-controls="DataTables_Table_0"></label></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-hover dataTable table-striped width-full dtr-inline" data-plugin="dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info" style="width: 817px;">
+            <thead>
+              <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 146px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 182px;" aria-label="Position: activate to sort column ascending">Position</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 164px;" aria-label="Office: activate to sort column ascending">Office</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 34px;" aria-label="Age: activate to sort column ascending">Age</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 80px;" aria-label="Date: activate to sort column ascending">Date</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 67px;" aria-label="Salary: activate to sort column ascending">Salary</th></tr>
+            </thead>
+            <tfoot>
+              <tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Position</th><th rowspan="1" colspan="1">Office</th><th rowspan="1" colspan="1">Age</th><th rowspan="1" colspan="1">Date</th><th rowspan="1" colspan="1">Salary</th></tr>
+            </tfoot>
+            <tbody>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            <tr role="row" class="odd">
+                <td class="sorting_1" tabindex="0">Ada.Hoppe</td>
+                <td>69842 Peyton Viaduct</td>
+                <td>South Geovannyburgh</td>
+                <td>89</td>
+                <td>2013/05/13</td>
+                <td>$211,76</td>
+              </tr><tr role="row" class="even">
+                <td class="sorting_1" tabindex="0">Adrianna_Durgan</td>
+                <td>75151 Kshlerin Square</td>
+                <td>North Elwynfurt</td>
+                <td>25</td>
+                <td>2014/02/26</td>
+                <td>$481,980</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Albin.Kreiger</td>
+                <td>111 Hershel Stream</td>
+                <td>Hermannborough</td>
+                <td>90</td>
+                <td>2013/11/27</td>
+                <td>$921,021</td>
+              </tr><tr role="row" class="even">
+                <td class="sorting_1" tabindex="0">Alisa</td>
+                <td>64838 D'Amore Cove</td>
+                <td>Port Lempi</td>
+                <td>25</td>
+                <td>2015/04/28</td>
+                <td>$226,459</td>
+              </tr><tr role="row" class="odd">
+                <td class="sorting_1" tabindex="0">August</td>
+                <td>731 Stiedemann Crossing</td>
+                <td>Rolfsonborough</td>
+                <td>98</td>
+                <td>2013/11/12</td>
+                <td>$203,952</td>
+              </tr><tr role="row" class="even">
+                <td class="sorting_1" tabindex="0">Bell.Mueller</td>
+                <td>083 Kshlerin Forest</td>
+                <td>Clintmouth</td>
+                <td>98</td>
+                <td>2013/10/12</td>
+                <td>$571,46</td>
+              </tr><tr role="row" class="odd">
+                <td class="sorting_1" tabindex="0">Bret</td>
+                <td>282 Susana Heights</td>
+                <td>Kaneport</td>
+                <td>47</td>
+                <td>2013/05/28</td>
+                <td>$445,494</td>
+              </tr><tr role="row" class="even">
+                <td class="sorting_1" tabindex="0">Ceasar_Orn</td>
+                <td>2795 Clement Ridges</td>
+                <td>Beckerhaven</td>
+                <td>78</td>
+                <td>2013/11/27</td>
+                <td>$958,117</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Chester</td>
+                <td>14095 Kling Gateway</td>
+                <td>Andresmouth</td>
+                <td>26</td>
+                <td>2014/09/27</td>
+                <td>$177,404</td>
+              </tr><tr role="row" class="even">
+                <td class="sorting_1" tabindex="0">Citlalli_Wehner</td>
+                <td>139 Ebert Freeway</td>
+                <td>Lake Esperanzamouth</td>
+                <td>78</td>
+                <td>2015/01/27</td>
+                <td>$892,012</td>
+              </tr></tbody>
+          </table></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 10 of 48 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0"><i class="icon md-chevron-left"></i></a></li><li class="paginate_button active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0">2</a></li><li class="paginate_button "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0">3</a></li><li class="paginate_button "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="4" tabindex="0">4</a></li><li class="paginate_button "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="5" tabindex="0">5</a></li><li class="paginate_button next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="6" tabindex="0"><i class="icon md-chevron-right"></i></a></li></ul></div></div></div></div>
+
+
+ </div>
+      </div>
+
+
+
+
+
+      <div class="panel">
+        <header class="panel-heading">
+          <h3 class="panel-title">
+            Fixed Header
+          </h3>
+        </header>
+        <div class="panel-body">
+          
+          <div id="exampleFixedHeader_wrapper" class="dataTables_wrapper form-inline dt-bootstrap"><table class="table table-hover dataTable table-striped dtr-inline" id="exampleFixedHeader" role="grid"> <thead>
+              <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 152px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th><th class="sorting" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 188px;" aria-label="Position: activate to sort column ascending">Position</th><th class="sorting" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 167px;" aria-label="Office: activate to sort column ascending">Office</th><th class="sorting" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 37px;" aria-label="Age: activate to sort column ascending">Age</th><th class="sorting" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 205px;" aria-label="Date: activate to sort column ascending">Date</th><th class="sorting" tabindex="0" aria-controls="exampleFixedHeader" rowspan="1" colspan="1" style="width: 69px;" aria-label="Salary: activate to sort column ascending">Salary</th></tr>
+            </thead>
+            
+            <tfoot>
+              <tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Position</th><th rowspan="1" colspan="1" style="">Office</th><th rowspan="1" colspan="1" style="">Age</th><th rowspan="1" colspan="1" style="">Date</th><th rowspan="1" colspan="1" style="">Salary</th></tr>
+            </tfoot>
+            <tbody>
+              
+              
+              
+              
+           
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            <tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Ada.Hoppe</td>
+                <td>69842 Peyton Viaduct</td>
+                <td style="">South Geovannyburgh</td>
+                <td style="">89</td>
+                <td style="">2013-05-13T08:22:09.797Z</td>
+                <td style="">$211,76</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Adrianna_Durgan</td>
+                <td>75151 Kshlerin Square</td>
+                <td style="">North Elwynfurt</td>
+                <td style="">25</td>
+                <td style="">2014-02-26T07:22:09.797Z</td>
+                <td style="">$481,980</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Afton</td>
+                <td>57724 Ernser Crossroad</td>
+                <td style="">Lake Charity</td>
+                <td style="">94</td>
+                <td style="">2015-04-28T03:22:09.798Z</td>
+                <td style="">$597,775</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Albin.Kreiger</td>
+                <td>111 Hershel Stream</td>
+                <td style="">Hermannborough</td>
+                <td style="">90</td>
+                <td style="">2013-11-27T01:22:09.796Z</td>
+                <td style="">$921,021</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Alena</td>
+                <td>24001 Kylee Spring</td>
+                <td style="">Lake Abner</td>
+                <td style="">95</td>
+                <td style="">2013-12-27T11:22:09.798Z</td>
+                <td style="">$831,450</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Alisa</td>
+                <td>64838 D'Amore Cove</td>
+                <td style="">Port Lempi</td>
+                <td style="">25</td>
+                <td style="">2015-04-28T03:22:09.797Z</td>
+                <td style="">$226,459</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">August</td>
+                <td>731 Stiedemann Crossing</td>
+                <td style="">Rolfsonborough</td>
+                <td style="">98</td>
+                <td style="">2013-11-11T20:22:09.797Z</td>
+                <td style="">$203,952</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Bell.Mueller</td>
+                <td>083 Kshlerin Forest</td>
+                <td style="">Clintmouth</td>
+                <td style="">98</td>
+                <td style="">2013-10-12T10:22:09.796Z</td>
+                <td style="">$571,46</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Bret</td>
+                <td>282 Susana Heights</td>
+                <td style="">Kaneport</td>
+                <td style="">47</td>
+                <td style="">2013-05-28T13:22:09.798Z</td>
+                <td style="">$445,494</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Candelario</td>
+                <td>4633 Rubie Loaf</td>
+                <td style="">Adeliashire</td>
+                <td style="">6</td>
+                <td style="">2014-12-27T11:22:09.798Z</td>
+                <td style="">$153,756</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Ceasar_Orn</td>
+                <td>2795 Clement Ridges</td>
+                <td style="">Beckerhaven</td>
+                <td style="">78</td>
+                <td style="">2013-11-27T01:22:09.798Z</td>
+                <td style="">$958,117</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Chester</td>
+                <td>14095 Kling Gateway</td>
+                <td style="">Andresmouth</td>
+                <td style="">26</td>
+                <td style="">2014-09-27T05:22:09.796Z</td>
+                <td style="">$177,404</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Citlalli_Wehner</td>
+                <td>139 Ebert Freeway</td>
+                <td style="">Lake Esperanzamouth</td>
+                <td style="">78</td>
+                <td style="">2015-01-26T21:22:09.798Z</td>
+                <td style="">$892,012</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Clementina</td>
+                <td>5957 Hagenes Falls</td>
+                <td style="">Anaishaven</td>
+                <td style="">45</td>
+                <td style="">2013-11-11T20:22:09.796Z</td>
+                <td style="">$684,588</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Coby</td>
+                <td>53700 Pagac Lodge</td>
+                <td style="">South Hershel</td>
+                <td style="">86</td>
+                <td style="">2013-08-27T19:22:09.798Z</td>
+                <td style="">$481,619</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Colin</td>
+                <td>637 Paucek Mountain</td>
+                <td style="">West Luraberg</td>
+                <td style="">77</td>
+                <td style="">2015-02-26T07:22:09.798Z</td>
+                <td style="">$298,110</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Damon</td>
+                <td>5516 Adolfo Green</td>
+                <td style="">Littelhaven</td>
+                <td style="">85</td>
+                <td style="">2014-06-12T18:22:09.795Z</td>
+                <td style="">$553,536</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Davin</td>
+                <td>50922 Kiara Square</td>
+                <td style="">Port Edmund</td>
+                <td style="">37</td>
+                <td style="">2014-11-27T01:22:09.798Z</td>
+                <td style="">$241,432</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Dell_Sipes</td>
+                <td>6113 Blick Neck</td>
+                <td style="">Juliefurt</td>
+                <td style="">1</td>
+                <td style="">2014-11-27T01:22:09.798Z</td>
+                <td style="">$861,434</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Electa</td>
+                <td>82791 Chesley Tunnel</td>
+                <td style="">East Waldo</td>
+                <td style="">78</td>
+                <td style="">2014-08-12T14:22:09.798Z</td>
+                <td style="">$398,409</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Elliott_Becker</td>
+                <td>8417 Orion Parkway</td>
+                <td style="">Streichside</td>
+                <td style="">83</td>
+                <td style="">2014-08-27T19:22:09.796Z</td>
+                <td style="">$447,592</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Emerson</td>
+                <td>784 Adriel Radial</td>
+                <td style="">New Jerroldland</td>
+                <td style="">4</td>
+                <td style="">2014-02-26T07:22:09.798Z</td>
+                <td style="">$805,823</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Florine</td>
+                <td>690 Ali Throughway</td>
+                <td style="">Port Kylaborough</td>
+                <td style="">77</td>
+                <td style="">2013-04-28T03:22:09.798Z</td>
+                <td style="">$833,585</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Gerhard</td>
+                <td>893 Mara Parkway</td>
+                <td style="">Elmermouth</td>
+                <td style="">32</td>
+                <td style="">2014-11-27T01:22:09.798Z</td>
+                <td style="">$856,275</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Greg</td>
+                <td>944 Nina </td>
+                <td style="">Okunevashire</td>
+                <td style="">16</td>
+                <td style="">2014-08-27T19:22:09.798Z</td>
+                <td style="">$396,035</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Gunnar</td>
+                <td>92873 Barney Club</td>
+                <td style="">Beierview</td>
+                <td style="">82</td>
+                <td style="">2014-03-28T17:22:09.798Z</td>
+                <td style="">$569,778</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Gunner_Jakubowski</td>
+                <td>80391 Maxwell Parks</td>
+                <td style="">South Travon</td>
+                <td style="">26</td>
+                <td style="">2014-03-28T17:22:09.798Z</td>
+                <td style="">$272,005</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Heath.Ryan</td>
+                <td>6778 Howe Route</td>
+                <td style="">Antwanbury</td>
+                <td style="">90</td>
+                <td style="">2013-08-12T14:22:09.797Z</td>
+                <td style="">$569,723</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Herta</td>
+                <td>7491 Bednar Gardens</td>
+                <td style="">Port Lucianoton</td>
+                <td style="">23</td>
+                <td style="">2013-10-12T10:22:09.798Z</td>
+                <td style="">$352,269</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Hubert</td>
+                <td>8884 Jamel Pines</td>
+                <td style="">Howemouth</td>
+                <td style="">63</td>
+                <td style="">2013-05-28T13:22:09.796Z</td>
+                <td style="">$584,032</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Jarvis.Simonis</td>
+                <td>0778 Elvis Spurs</td>
+                <td style="">Harrisfurt</td>
+                <td style="">62</td>
+                <td style="">2013-05-28T13:22:09.798Z</td>
+                <td style="">$336,046</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Jaylin.Hoppe</td>
+                <td>638 Seth Oval</td>
+                <td style="">North Saigeport</td>
+                <td style="">27</td>
+                <td style="">2014-09-27T05:22:09.798Z</td>
+                <td style="">$563,0</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Jennie</td>
+                <td>755 Greyson Key</td>
+                <td style="">East Jazmyne</td>
+                <td style="">94</td>
+                <td style="">2015-03-28T17:22:09.798Z</td>
+                <td style="">$530,408</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Jevon_Wintheiser</td>
+                <td>53621 Jermaine Squares</td>
+                <td style="">Hoppeport</td>
+                <td style="">44</td>
+                <td style="">2014-03-13T12:22:09.799Z</td>
+                <td style="">$587,409</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Johanna.Thiel</td>
+                <td>4301 Trever Radial</td>
+                <td style="">Lake Augustineton</td>
+                <td style="">67</td>
+                <td style="">2013-12-27T11:22:09.796Z</td>
+                <td style="">$608,507</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Johnathan_Mraz</td>
+                <td>1998 Webster Fords</td>
+                <td style="">East Vern</td>
+                <td style="">50</td>
+                <td style="">2014-09-12T00:22:09.798Z</td>
+                <td style="">$290,875</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Josephine</td>
+                <td>36238 Satterfield Avenue</td>
+                <td style="">New Alexanderhaven</td>
+                <td style="">51</td>
+                <td style="">2015-01-26T21:22:09.798Z</td>
+                <td style="">$189,18</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Lacey</td>
+                <td>995 Lang Springs</td>
+                <td style="">Cordellburgh</td>
+                <td style="">94</td>
+                <td style="">2014-11-27T01:22:09.798Z</td>
+                <td style="">$990,291</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Marjorie.Orn</td>
+                <td>314 Aurore Canyon</td>
+                <td style="">Port Jaquelineburgh</td>
+                <td style="">3</td>
+                <td style="">2014-06-27T23:22:09.798Z</td>
+                <td style="">$547,752</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Mckenna.Herman</td>
+                <td>63204 Hegmann Keys</td>
+                <td style="">New Isobelview</td>
+                <td style="">2</td>
+                <td style="">2013-08-12T14:22:09.797Z</td>
+                <td style="">$702,091</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Melany_Gerhold</td>
+                <td>1100 Steve Pines</td>
+                <td style="">Immanuelfort</td>
+                <td style="">12</td>
+                <td style="">2014-06-27T23:22:09.796Z</td>
+                <td style="">$162,453</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Miracle</td>
+                <td>176 Hirthe Squares</td>
+                <td style="">Ryleetown</td>
+                <td style="">82</td>
+                <td style="">2013-09-27T05:22:09.796Z</td>
+                <td style="">$784,802</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Monica</td>
+                <td>0039 Heath Plain</td>
+                <td style="">West Bentonhaven</td>
+                <td style="">80</td>
+                <td style="">2015-05-13T08:22:09.798Z</td>
+                <td style="">$821,600</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Monique_White</td>
+                <td>415 Corkery Walks</td>
+                <td style="">West Lauryn</td>
+                <td style="">97</td>
+                <td style="">2014-02-11T02:22:09.798Z</td>
+                <td style="">$222,343</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Myriam_Nicolas</td>
+                <td>760 Hickle Causeway</td>
+                <td style="">Lake Nickolasshire</td>
+                <td style="">69</td>
+                <td style="">2014-05-13T08:22:09.798Z</td>
+                <td style="">$293,786</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Myrtie.Gerhold</td>
+                <td>098 Noel Way</td>
+                <td style="">Santinoland</td>
+                <td style="">13</td>
+                <td style="">2014-12-12T06:22:09.796Z</td>
+                <td style="">$550,087</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Raina</td>
+                <td>828 Cathy Streets</td>
+                <td style="">West Uriahville</td>
+                <td style="">26</td>
+                <td style="">2013-09-27T05:22:09.798Z</td>
+                <td style="">$186,229</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Ruben.Reilly</td>
+                <td>02868 Cronin Tunnel</td>
+                <td style="">Rossieville</td>
+                <td style="">87</td>
+                <td style="">2013-09-12T00:22:09.798Z</td>
+                <td style="">$520,483</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Sammie</td>
+                <td>46406 Powlowski Common</td>
+                <td style="">Cristmouth</td>
+                <td style="">51</td>
+                <td style="">2014-03-28T17:22:09.797Z</td>
+                <td style="">$345,739</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Shanel</td>
+                <td>7579 Santa Forest</td>
+                <td style="">Jordaneville</td>
+                <td style="">14</td>
+                <td style="">2015-04-28T03:22:09.796Z</td>
+                <td style="">$818,20</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Stone_Deckow</td>
+                <td>6440 Moen Loop</td>
+                <td style="">Jenningsbury</td>
+                <td style="">23</td>
+                <td style="">2014-07-28T09:22:09.798Z</td>
+                <td style="">$219,573</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Terrance.Borer</td>
+                <td>1568 Richmond Bypass</td>
+                <td style="">Schillerfort</td>
+                <td style="">46</td>
+                <td style="">2014-10-27T15:22:09.797Z</td>
+                <td style="">$634,073</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Thea</td>
+                <td>26114 Narciso Lodge</td>
+                <td style="">East Opal</td>
+                <td style="">64</td>
+                <td style="">2014-11-11T20:22:09.796Z</td>
+                <td style="">$581,736</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Torrey</td>
+                <td>1995 Richie Neck</td>
+                <td style="">West Sedrickstad</td>
+                <td style="">77</td>
+                <td style="">2014-09-12T00:22:09.796Z</td>
+                <td style="">$243,577</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Treva</td>
+                <td>308 Octavia Roads</td>
+                <td style="">East Eunaton</td>
+                <td style="">37</td>
+                <td style="">2014-12-12T06:22:09.798Z</td>
+                <td style="">$746,921</td>
+              </tr><tr role="row" class="even">
+                <td tabindex="0" class="sorting_1">Wilhelmine</td>
+                <td>44727 O'Hara Union</td>
+                <td style="">Dibbertfurt</td>
+                <td style="">68</td>
+                <td style="">2013-06-27T23:22:09.796Z</td>
+                <td style="">$207,291</td>
+              </tr><tr role="row" class="odd">
+                <td tabindex="0" class="sorting_1">Yasmine</td>
+                <td>67284 Kreiger Freeway</td>
+                <td style="">Stoltenbergside</td>
+                <td style="">8</td>
+                <td style="">2014-12-12T06:22:09.796Z</td>
+                <td style="">$358,369</td>
+              </tr></tbody>
+          </table></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <header class="panel-heading">
+          <h3 class="panel-title">
+            Fixed Header
+          </h3>
+        </header>
+        <div class="panel-body">
+        <div class="table-responsive">
+<table class="sticky-header table table-hover table-striped" style="visibility: hidden; position: fixed; top: 0px; left: 112.5px; width: 720px;"><thead>
+    <tr>
+      <th id="view-nid-1-table-column" class="views-field views-field-nid-1" scope="col" style="width: 43px; display: table-cell;">RW #</th>
+      <th id="view-field-modell-table-column" class="views-field views-field-field-modell" scope="col" style="width: 155px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_modell&amp;sort=asc" title="sort by Modell">Modell</a></th>
+                    <th id="view-field-foto-table-column" class="views-field views-field-field-modell" scope="col" style="width: 102px; display: table-cell;">Bild</th>
+      <th class="views-align-right views-field views-field-field-wbw views-align-right" id="view-field-wbw-table-column" scope="col" style="width: 53px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_wbw&amp;sort=asc" title="sort by WBW">WBW</a></th>
+      <th class="views-align-right views-field views-field-field-rpk views-align-right" id="view-field-rpk-table-column" scope="col" style="width: 46px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_rpk&amp;sort=asc" title="sort by RPK">RPK</a></th>
+      <th class="views-align-right views-field views-field-field-versteckt-gebot views-align-right" id="view-field-versteckt-gebot-table-column" scope="col" style="width: 50px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_versteckt_gebot&amp;sort=asc" title="sort by Max">Max</a></th>
+      <th id="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende" scope="col" style="width: 128px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_auktionsende&amp;sort=asc" title="sort by Auktionsende &amp; PLZ">Auktionsende &amp; PLZ</a></th>
+      <th id="view-uid-table-column" class="views-field views-field-uid" scope="col" style="width: 85px; display: table-cell;"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=uid&amp;sort=asc" title="sort by Ersteller">Ersteller</a></th>
+      <th id="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation" scope="col" style="width: 58px; display: table-cell;">Kalk</th>
+          </tr>
+    </thead></table><table class="table table-hover table-striped sticky-enabled sticky-table">
+        <thead>
+    <tr>
+      <th id="view-nid-1-table-column" class="views-field views-field-nid-1" scope="col">RW #</th>
+      <th id="view-field-modell-table-column" class="views-field views-field-field-modell" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_modell&amp;sort=asc" title="sort by Modell">Modell</a></th>
+                    <th id="view-field-foto-table-column" class="views-field views-field-field-modell" scope="col">Bild</th>
+      <th class="views-align-right views-field views-field-field-wbw views-align-right" id="view-field-wbw-table-column" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_wbw&amp;sort=asc" title="sort by WBW">WBW</a></th>
+      <th class="views-align-right views-field views-field-field-rpk views-align-right" id="view-field-rpk-table-column" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_rpk&amp;sort=asc" title="sort by RPK">RPK</a></th>
+      <th class="views-align-right views-field views-field-field-versteckt-gebot views-align-right" id="view-field-versteckt-gebot-table-column" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_versteckt_gebot&amp;sort=asc" title="sort by Max">Max</a></th>
+      <th id="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=field_auktionsende&amp;sort=asc" title="sort by Auktionsende &amp; PLZ">Auktionsende &amp; PLZ</a></th>
+      <th id="view-uid-table-column" class="views-field views-field-uid" scope="col"><a href="?fahrzeugtyp=All&amp;field_marke_target_id=All&amp;id=&amp;vin_n=&amp;modell_id&amp;order=uid&amp;sort=asc" title="sort by Ersteller">Ersteller</a></th>
+      <th id="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation" scope="col">Kalk</th>
+          </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+19 <br>
+<a href="/de/node/19/edit?destination=/en/kfz-zum-verkauf" hreflang="de"></a><a href="node/19/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/19">Ford Fiesta</a><br>⛐ 124.698 km<br> EZ (12.2010)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/19?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/DSC_0001_0.JPG?itok=bjr2iSIY 1x" src="images/auto-images/DSC_0001_0.JPG?itok=bjr2iSIY" alt="auto schwarz" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=19">1 234</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="48Z">22.07.2019 - 10:59</time>
+
+
+
+ <br>
+ 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation">
+
+
+<div><span class="file-icon"><a href="/sites/default/files/2019-06/Kalkulationsliste-%2035415.tif" title="" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Open Calculation in new window"><span class="icon glyphicon glyphicon-file text-primary" aria-hidden="true"> </span></a></span></div></td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+18 <br>
+<a href="/de/node/18/edit?destination=/en/kfz-zum-verkauf" hreflang="de"></a><a href="node/18/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/18">Mazda CX-3</a><br>⛐ 28.956 km<br> EZ (03.2019)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/18?destination=kfz-zum-verkauf">
+
+
+  
+
+
+  
+
+
+<img srcset="images/auto-images/m_20_1.jpg?itok=McxXOkaQ 1x" src="images/auto-images/m_20_1.jpg?itok=McxXOkaQ" alt="mazda" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=18">222</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="46Z">15.08.2019 - 10:40</time>
+
+
+
+ <br>
+ 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation">
+
+
+<div><span class="file-icon"><a href="/sites/default/files/2019-06/Kostenvoranschlag.pdf" title="" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Open Calculation in new window"><span class="icon glyphicon glyphicon-file text-primary" aria-hidden="true"> </span></a></span></div></td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+16 <br>
+<a href="/de/node/16/edit?destination=/en/kfz-zum-verkauf" hreflang="de"></a><a href="node/16/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/16">Mercedes-Benz C 320</a><br>⛐ 158.632 km<br> EZ (07.2006)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/16?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/%24_20%5B1%5D_5.jpg?itok=E2aOQW0Q 1x" src="images/auto-images/%24_20%5B1%5D_5.jpg?itok=E2aOQW0Q" alt="Exterior" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=16">1 000</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="25Z">21.07.2019 - 18:55</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation">
+
+
+<div><span class="file-icon"><a href="/sites/default/files/2019-06/MD320CDI.pdf" title="" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Open Calculation in new window"><span class="icon glyphicon glyphicon-file text-primary" aria-hidden="true"> </span></a></span></div></td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+13 <br>
+<a href="/en/node/13/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/13/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <span><a href="../lot/13" class="text-success" )=""> Volkswagen T6 Transporter</a> <br> ⛐ 357125 km <br> EZ 2011-12-15 </span>
+    
+
+</td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/13?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/%24_20%5B1%5D.jpg?itok=TnsSxsIs 1x" src="images/auto-images/%24_20%5B1%5D.jpg?itok=TnsSxsIs" alt="vorne" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right">
+
+
+4 250</td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right">
+
+
+750</td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=13">3 550</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="00Z">27.06.2019 - 22:00</time>
+
+
+
+ <br>
+ 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation">
+
+
+<div><span class="file-icon"><a href="/sites/default/files/2019-06/cgn-01064-01167-itested-wheyproteinisolate-83118.pdf" title="" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Open Calculation in new window"><span class="icon glyphicon glyphicon-file text-primary" aria-hidden="true"> </span></a></span></div></td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+12 <br>
+<a href="/en/node/12/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/12/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/12">BMW 530 Gran Turismo</a><br> EZ (06.2010)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/12?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/DSC_0026_0.JPG?itok=dA6n2ZJx 1x" src="images/auto-images/DSC_0026_0.JPG?itok=dA6n2ZJx" alt="1" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=12">11 111</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="00Z">30.06.2019 - 18:00</time>
+
+
+
+ <br>
+ 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+11 <br>
+<a href="/en/node/11/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/11/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/11">Mercedes-Benz A 35 AMG</a><br> EZ (11.2016)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/11?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/%24_20%5B1%5D_2.jpg?itok=Dx8ujpha 1x" src="images/auto-images/%24_20%5B1%5D_2.jpg?itok=Dx8ujpha" alt="exterior" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right">
+
+
+17 000</td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right">
+
+
+8 250</td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=11">10 121</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="00Z">03.07.2019 - 13:00</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+17 <br>
+<a href="/en/node/17/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/17/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/17">Mercedes-Benz A 35 AMG</a><br> EZ (11.2016)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/17?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/%24_20%5B1%5D_2.jpg?itok=Dx8ujpha 1x" src="images/auto-images/%24_20%5B1%5D_2.jpg?itok=Dx8ujpha" alt="exterior" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right"> </td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="11Z">20.06.2019 - 14:11</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+10 <br>
+<a href="/en/node/10/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/10/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/10">Volkswagen Käfer</a><br>⛐ 295.450 km<br> EZ (01.1972)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/10?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/%24_20%5B1%5D_10.jpg?itok=zZbPMhlB 1x" src="images/auto-images/%24_20%5B1%5D_10.jpg?itok=zZbPMhlB" alt="Kaefer" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right"> </td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="28Z">22.06.2019 - 20:55</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/de/user/1" hreflang="de">oddmin</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+9 <br>
+<a href="/en/node/9/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/9/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <a href="../lot/9">Volkswagen Touareg</a><br> EZ (09.2010)
+ </td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/9?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/no-foto-g.png?itok=uTpsobf_ 1x" src="images/auto-images/no-foto-g.png?itok=uTpsobf_" alt="no photo" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right"> </td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="25Z">14.06.2019 - 18:05</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/en/user/26" hreflang="en">Johansson</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+3 <br>
+<a href="/en/node/3/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/3/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <span><a href="../lot/3" class="text-success" )=""> Opel Zafira</a> <br> ⛐ 99987 km <br> EZ 2003-02-15 </span>
+    
+
+</td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/3?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/no-foto-g.png?itok=uTpsobf_ 1x" src="images/auto-images/no-foto-g.png?itok=uTpsobf_" alt="no photo" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=3">455</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="14Z">27.06.2019 - 01:37</time>
+
+
+
+ <br>
+DE-255 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/en/user/26" hreflang="en">Johansson</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+      <tr>
+  <td headers="view-nid-1-table-column" class="views-field views-field-nid-1">
+
+
+1 <br>
+<a href="/en/node/1/edit?destination=/en/kfz-zum-verkauf" hreflang="en"></a><a href="node/1/edit?destination=kfz-zum-verkauf"> <img src="/core/misc/icons/bebebe/pencil.svg"></a></td>
+  <td headers="view-field-modell-table-column" class="views-field views-field-field-modell">
+
+
+
+
+
+
+    <span><a href="../lot/1" class="text-success" )=""> Mercedes-Benz C 55 AMG</a> <br> ⛐ 68045 km <br> EZ 2004-02-12 </span>
+    
+
+</td>
+                    <td headers="view-field-foto-table-column" class="views-field views-field-field-modell">
+
+
+<a href="/en/lot/1?destination=kfz-zum-verkauf">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'responsive_image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/responsive_image/templates/responsive-image-formatter.html.twig' -->
+  
+
+
+  
+
+
+<img srcset="images/auto-images/no-foto-g.png?itok=uTpsobf_ 1x" src="images/auto-images/no-foto-g.png?itok=uTpsobf_" alt="no photo" typeof="foaf:Image" class="img-thumbnail img-responsive">
+
+
+
+
+
+
+
+
+
+
+
+</a></td>
+  <td headers="view-field-wbw-table-column" class="views-field views-field-field-wbw views-align-right"> </td>
+  <td headers="view-field-rpk-table-column" class="views-field views-field-field-rpk views-align-right"> </td>
+  <td headers="view-field-versteckt-gebot-table-column" class="views-field views-field-field-versteckt-gebot views-align-right">
+
+
+<a href="/en/Angebote?field_kfz_zum_verkauf_target_id=1">1 500</a></td>
+  <td headers="view-field-auktionsende-table-column" class="views-field views-field-field-auktionsende">
+
+
+
+
+
+
+
+<time datetime="54Z">26.06.2019 - 02:42</time>
+
+
+
+ <br>
+ 
+</td>
+  <td headers="view-uid-table-column" class="views-field views-field-uid">
+
+
+<a href="/en/user/26" hreflang="en">Johansson</a></td>
+  <td headers="view-field-kalkulation-table-column" class="views-field views-field-field-kalkulation"> </td>
+          </tr>
+           </tbody>
+              </table>
+  </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Page -->
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-footer-legal">© 2016 <a href="http://friendlycms.ru/" target="_blank">FriendlyCMS</a></div>
+    <div class="site-footer-right">
+      Используйте с <i class="red-600 icon md-favorite"></i> и <a href="http://friendlycms.ru/pages/download-friendlycms" target="_blank">бесплатно</a>
+    </div>
+  </footer>
+  <!-- Core  -->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/bootstrap.js"></script>
+  <script src="vendor/animsition/animsition.js"></script>
+  <script src="vendor/asscroll/jquery-asScroll.js"></script>
+  <script src="vendor/mousewheel/jquery.mousewheel.js"></script>
+  <script src="vendor/asscrollable/jquery.asScrollable.all.js"></script>
+  <script src="vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+  <script src="vendor/waves/waves.js"></script>
+  <!-- Plugins -->
+  <script src="vendor/switchery/switchery.min.js"></script>
+  <script src="vendor/intro-js/intro.js"></script>
+  <script src="vendor/screenfull/screenfull.js"></script>
+  <script src="vendor/slidepanel/jquery-slidePanel.js"></script>
+  <!-- Tables-->
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables-fixedheader/dataTables.fixedHeader.js"></script>
+  <script src="vendor/datatables-bootstrap/dataTables.bootstrap.js"></script>
+  <script src="vendor/datatables-responsive/dataTables.responsive.js"></script>
+  <script src="vendor/datatables-tabletools/dataTables.tableTools.js"></script>
+  <script src="vendor/asrange/jquery-asRange.min.js"></script>
+  <script src="vendor/bootbox/bootbox.js"></script>
+  <script src="js/uikit/icon.min.js"></script>
+
+
+  <!-- Scripts -->
+  <script src="js/core.js"></script>
+  <script src="js/KFZ.min.js"></script>
+  <script src="js/sections/menu.js"></script>
+  <script src="js/sections/menubar.js"></script>
+  <script src="js/sections/sidebar.js"></script>
+  <script src="js/configs/config-colors.js"></script>
+  <script src="js/configs/config-tour.js"></script>
+  <script src="js/components/asscrollable.js"></script>
+  <script src="js/components/animsition.js"></script>
+  <script src="js/components/slidepanel.js"></script>
+  <script src="js/components/switchery.js"></script>
+  <script src="js/components/tabs.js"></script>
+  <script src="js/components/datatables.js"></script>
+
+  
+  <!-- KFZ ADDED-->
+   
+
+  <script src="js/tables/datatable.js"></script>
+
+ <script src="js/tableheaders/tabledrag.js"></script>
+ <script src="js/tableheaders/tableheader.js"></script>
+ <script src="js/tableheaders/tableheader.es6.js"></script>
+ <script src="js/tableheaders/tableheader-[from-bootstrap].js"></script>
+ <script src="js/tableheaders/tableresponsive.js"></script>
+ <script src="js/tableheaders/tableselect.js"></script>
+
+
+
+
+
+
+  <script>
+  (function(document, window, $) {
+    'use strict';
+    var Site = window.Site;
+    $(document).ready(function() {
+      Site.run();
+    });
+  })(document, window, jQuery);
+  </script>
+
+
+
+</body>
+</html>
